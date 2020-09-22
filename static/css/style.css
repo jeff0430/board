@@ -22,12 +22,12 @@ form {
 	height: 100%;
 	margin-right: auto;
 	margin-left: auto;
-	width: 600px;
+	width: 1000px;
 }
 
 #masterDiv {
 	height: 40px;
-	width: 440px;
+	width: 840px;
 	margin-top: 75px;
 	margin-left: 34px;
 	font-family: Verdana, Geneva, sans-serif;
@@ -57,7 +57,7 @@ form {
 
 .contentDiv {
 	float: left;
-	width: 450px;
+	width: 850px;
 	margin-top: 0px;
 	margin-right: 10px;
 	margin-bottom: 0px;

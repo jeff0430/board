@@ -1,7 +1,7 @@
 {% extends "base.html" %}
-{% load staticfiles %}
+{% load static %}
 
-{% block title %}<title>網站留言版</title>{% endblock %}
+{% block title %}<title>智慧保全留言版</title>{% endblock %}
 
 {% block twomenu %}
 	<img src="{% static "images/comment.png" %}" width="16" height="16" align="absmiddle" /> <a href="/post/">我要留言</a> 
@@ -14,7 +14,7 @@
   {% for unit in boardunits %}
 	<tr>
 	  <td background="{% static "images/g_r3_c3.png" %}">
-		  <table width="545" border="0" align="center" cellpadding="0" cellspacing="0" background="{% static "images/g_r5_c4.png" %}"
+		  <table width="1000" border="0" align="center" cellpadding="0" cellspacing="0" background="{% static "images/g_r5_c4.png" %}"
 			<tr>
 			  <td valign="top" style="background:url({% static "images/g_r4_c4.png" %}); background-repeat:no-repeat">
 				<div class="floorDiv">
@@ -49,11 +49,11 @@
 			  </td>
 			</tr>
 			<tr>
-			  <td><img name="g_r7_c4" src="{% static "images/g_r7_c4.png" %}" width="545" height="12" border="0" alt=""></td>
+			  <td><img name="g_r7_c4" src="{% static "images/g_r7_c4.png" %}" width="800" height="12" border="0" alt=""></td>
 			</tr>
 		  </table>
 		  <span class="functionDiv">
-			  <img src="{% static "images/g_r9_c3.png" %}" width="600" height="20" border="0" />
+			  <img src="{% static "images/g_r9_c3.png" %}" width="1000" height="20" border="0" />
 		  </span>
 	</tr>
   {% empty %}
